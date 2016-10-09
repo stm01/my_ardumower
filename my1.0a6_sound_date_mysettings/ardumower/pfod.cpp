@@ -639,7 +639,7 @@ void RemoteControl::sendBatteryMenu(boolean update){
   serialPort->print(" V");
   serialPort->print(F("|j01~Monitor "));
   sendYesNo(robot->batMonitor);
-  if (robot->developerActive) sendSlider("j05", F("Calibrate batFactor "), robot->batFactor, "", 0.01, 1.0);   
+  if (robot->developerActive) sendSlider("j05", F("Calibrate batFactor "), robot->batFactor, "", 0.40, 0.60);   
   //Console.print("batFactor=");
   //Console.println(robot->batFactor);  
   sendSlider("j02", F("Go home if below Volt"), robot->batGoHomeIfBelow, "", 0.1, robot->batFull, (robot->batFull*0.72));  // for Sony Konion cells 4.2V * 0,72= 3.024V which is pretty safe to use 
