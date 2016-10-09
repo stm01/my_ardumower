@@ -5,6 +5,8 @@
   Copyright (c) 2014 by Maxime Carpentieri    
   Copyright (c) 2014-2015 by Stefan Manteuffel
   Copyright (c) 2015 by Uwe Zimprich
+  Copyright (c) 2015-2016 by Stephan Meder
+  
   
   Private-use only! (you need to ask for a commercial-use)
  
